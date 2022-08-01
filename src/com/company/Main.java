@@ -17,6 +17,7 @@ public class Main {
        // System.out.println(Arrays.toString(new IntersectionofTwoArraysII().intersect(nums1, nums2)));
         //System.out.println(new BestTimetoBuyandSellStock().maxProfit(nums1));
         int[][] mat = {{1,2},{3,4}};
-        System.out.println(Arrays.deepToString(new ReshapetheMatrix().matrixReshape(mat, 1, 5)));
+        //System.out.println(Arrays.deepToString(new ReshapetheMatrix().matrixReshape(mat, 1, 5)));
+        System.out.println(new PascalsTriangle().generate(30));
     }
 }
