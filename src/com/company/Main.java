@@ -15,6 +15,8 @@ public class Main {
         // System.out.println(Arrays.toString(new TwoSum().twoSum(nums, 6)));
         // new MergeSortedArray().merge(new int[]{1, 2, 3, 0, 0, 0}, 3, new int[]{2, 5, 6}, 3);
        // System.out.println(Arrays.toString(new IntersectionofTwoArraysII().intersect(nums1, nums2)));
-        System.out.println(new BestTimetoBuyandSellStock().maxProfit(nums1));
+        //System.out.println(new BestTimetoBuyandSellStock().maxProfit(nums1));
+        int[][] mat = {{1,2},{3,4}};
+        System.out.println(Arrays.deepToString(new ReshapetheMatrix().matrixReshape(mat, 1, 5)));
     }
 }
