@@ -18,6 +18,16 @@ public class Main {
         //System.out.println(new BestTimetoBuyandSellStock().maxProfit(nums1));
         int[][] mat = {{1,2},{3,4}};
         //System.out.println(Arrays.deepToString(new ReshapetheMatrix().matrixReshape(mat, 1, 5)));
-        System.out.println(new PascalsTriangle().generate(30));
+       // System.out.println(new PascalsTriangle().generate(30));
+        char[][] sudoku = {{'5','3','.','.','7','.','.','.','.'}
+                ,{'6','.','.','1','9','5','.','.','.'}
+                ,{'.','9','8','.','.','.','.','6','.'}
+                ,{'8','.','.','.','6','.','.','.','3'}
+                ,{'4','.','.','8','.','3','.','.','1'}
+                ,{'7','.','.','.','2','.','.','.','6'}
+                ,{'.','6','.','.','.','.','2','8','.'}
+                ,{'.','.','.','4','1','9','.','.','5'}
+                ,{'.','.','.','.','8','.','.','7','9'}};
+        System.out.println(new ValidSudoku().isValidSudoku(sudoku));
     }
 }
