@@ -19,7 +19,7 @@ public class Main {
         int[][] mat = {{1,2},{3,4}};
         //System.out.println(Arrays.deepToString(new ReshapetheMatrix().matrixReshape(mat, 1, 5)));
        // System.out.println(new PascalsTriangle().generate(30));
-        char[][] sudoku = {{'5','3','.','.','7','.','.','.','.'}
+       /* char[][] sudoku = {{'5','3','.','.','7','.','.','.','.'}
                 ,{'6','.','.','1','9','5','.','.','.'}
                 ,{'.','9','8','.','.','.','.','6','.'}
                 ,{'8','.','.','.','6','.','.','.','3'}
@@ -29,5 +29,9 @@ public class Main {
                 ,{'.','.','.','4','1','9','.','.','5'}
                 ,{'.','.','.','.','8','.','.','7','9'}};
         System.out.println(new ValidSudoku().isValidSudoku(sudoku));
+
+        */
+
+        System.out.println(new FirstUniqueCharacterinaString().firstUniqChar("loveleetcode"));
     }
 }
