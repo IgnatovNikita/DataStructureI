@@ -54,8 +54,9 @@ public class Main {
 
         */
 
-        int[][] matrix = {{1,3,5,7},{10,11,16,20},{23,30,34,60}};
+        //int[][] matrix = {{1,3,5,7},{10,11,16,20},{23,30,34,60}};
       //  matrix = new int[][]{{1, 3}};
-        System.out.println(new Searcha2DMatrix().searchMatrix(matrix,60));
+        //System.out.println(new Searcha2DMatrix().searchMatrix(matrix,60));
+        System.out.println(new ValidParentheses().isValid("){"));
     }
 }
