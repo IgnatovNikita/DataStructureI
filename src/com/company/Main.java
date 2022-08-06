@@ -59,11 +59,15 @@ public class Main {
         //System.out.println(new Searcha2DMatrix().searchMatrix(matrix,60));
         //System.out.println(new ValidParentheses().isValid("){"));
 
-        MyQueue myQueue = new MyQueue();
+        /* MyQueue myQueue = new MyQueue();
         myQueue.push(1); // queue is: [1]
         myQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)
         System.out.println(myQueue.peek()); // return 1
         System.out.println(myQueue.pop()); // return 1, queue is [2]
         System.out.println(myQueue.empty()); // return false
+
+         */
+        TreeNode root = new TreeNode(1, null, new TreeNode(2, new TreeNode(3), null));
+        System.out.println(new BinaryTreePreorderTraversal().preorderTraversal(root));
     }
 }
