@@ -70,6 +70,7 @@ public class Main {
         TreeNode root = new TreeNode(1, new TreeNode(2,new
                 TreeNode(3), new TreeNode(0)), new TreeNode(2, new TreeNode(4), new TreeNode(3)));
         //System.out.println(new BinaryTreePostorderTraversal().postorderTraversal(root));
-        System.out.println(new SymmetricTree().isSymmetric(root));
+       // System.out.println(new SymmetricTree().isSymmetric(root));
+        System.out.println(new BinaryTreeLevelOrderTraversal().levelOrder(root));
     }
 }
