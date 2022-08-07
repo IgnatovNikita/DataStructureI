@@ -68,6 +68,6 @@ public class Main {
 
          */
         TreeNode root = new TreeNode(1, null, new TreeNode(2, new TreeNode(3), null));
-        System.out.println(new BinaryTreeInorderTraversal().inorderTraversal(root));
+        System.out.println(new BinaryTreePostorderTraversal().postorderTraversal(root));
     }
 }
