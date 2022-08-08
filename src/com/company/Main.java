@@ -67,10 +67,12 @@ public class Main {
         System.out.println(myQueue.empty()); // return false
 
          */
-        TreeNode root = new TreeNode(1, new TreeNode(2,new
-                TreeNode(3), new TreeNode(0)), new TreeNode(2, new TreeNode(4), new TreeNode(3)));
+        TreeNode root = new TreeNode(5, new TreeNode(4,new
+                TreeNode(11, new TreeNode(7), new TreeNode(2)), null), new TreeNode(8,
+                new TreeNode(13), new TreeNode(4, null, new TreeNode(1))));
         //System.out.println(new BinaryTreePostorderTraversal().postorderTraversal(root));
        // System.out.println(new SymmetricTree().isSymmetric(root));
-        System.out.println(new BinaryTreeLevelOrderTraversal().levelOrder(root));
+        //System.out.println(new BinaryTreeLevelOrderTraversal().levelOrder(root));
+        System.out.println(new PathSum().hasPathSum(null,0));
     }
 }
